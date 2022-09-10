@@ -72,13 +72,12 @@ body{
     display: flex;
     width: 40rem;
     height: 6rem;
-    justify-content: space-evenly;
     align-items: center;
     border-radius: 1rem;
     position: absolute;
-    top: 50rem;
-    left: 130rem;
-    display: none;
+    top: 48rem;
+    left: 125rem;
+    
 }
     
     
@@ -86,6 +85,17 @@ body{
     color: var(--DesaturatedDarkBlue);
     letter-spacing: .5rem;
 }
+.triangle{
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--VeryDarkGrayishBlue);
+    position: relative;
+    top: -5.5rem;
+    left: 16rem;
+}
+    
 .share_btn{
     height: 4rem;
     width: 4rem;
