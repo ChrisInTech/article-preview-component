@@ -77,23 +77,35 @@ body{
     position: absolute;
     top: 48rem;
     left: 125rem;
-    
 }
-    
-    
 .icon_box p{
     color: var(--DesaturatedDarkBlue);
     letter-spacing: .5rem;
 }
-.triangle{
+.icon_box img{
+    margin-right: -1.5rem;
+}
+#close{
+    width: 20px;
+    height: auto;
+    position: relative;
+    right: 5px;
+    top: -15px;
+    cursor: pointer;
+}
+#open{
+    display: none;
+}
+#triangle{
     width: 0; 
     height: 0; 
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid var(--VeryDarkGrayishBlue);
     position: relative;
-    top: -5.5rem;
-    left: 16rem;
+    top: 4rem;
+    right: 20.5rem;
+    
 }
     
 .share_btn{
@@ -106,6 +118,7 @@ body{
     border-radius: 50%;
     position: relative;
     right: -20rem;
+    cursor: pointer;
 
 }
 .share_btn:hover{
@@ -114,6 +127,10 @@ body{
 .share_btn img{
     margin: 0 auto;
 }
+    
+    
+    
+    
 
 
     
