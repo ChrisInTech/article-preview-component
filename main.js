@@ -1,19 +1,21 @@
-const openBox = document.getElementsByClassName('share_btn')[0]
+const shareButton = document.getElementsByClassName('share_btn')[0]
 const open = document.getElementById('open')
-const closeBox = document.getElementById('close')
-const triangle = document.getElementById('triangle')
+const closeIcon = document.getElementById('close')
+
 
 const openIconBox = () =>{
     open.style.display = 'block'
+    shareButton.style.backgroundColor = 'var(--GrayishBlue)'
 
 }
 
 const closeIconBox = () =>{
     open.style.display = 'none'
+    shareButton.style.backgroundColor = 'var(--VeryDarkGrayishBlue)'
 }
 
-openBox.addEventListener('click', openIconBox)
-closeBox.addEventListener('click', closeIconBox)
+shareButton.addEventListener('click', openIconBox)
+closeIcon.addEventListener('click', closeIconBox)
 
 
 
